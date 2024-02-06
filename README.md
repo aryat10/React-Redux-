@@ -15,49 +15,97 @@ It implements many performance optimizations internally, which allows to compone
 
 
 
-Here in this repository I have created a simple Increement-Decrement counter which will give us the glimpse of how the Redux actually works in React 
+Here in this repository I have created a simple Increement-Decrement counter which will give us the glimpse of how the Redux actually works in React !!! 
+Install Packages
+Create reducer and actions
+Create and initialize the store
+Provide the store to React application
+Dispatch actions from the react component
 
 
 
 
 
-React Redux
-Official React bindings for Redux. Performant and flexible.
+# React Redux
 
-GitHub Workflow Status npm version npm downloads #redux channel on Discord
+Official React bindings for [Redux](https://github.com/reduxjs/redux).
+Performant and flexible.
 
-Installation
-Create a React Redux App
-The recommended way to start new apps with React and Redux is by using our official Redux+TS template for Vite, or by creating a new Next.js project using Next's with-redux template.
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/reduxjs/react-redux/test.yml?style=flat-square) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![#redux channel on Discord](https://img.shields.io/badge/discord-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)
+
+## Installation
+
+### Create a React Redux App
+
+The recommended way to start new apps with React and Redux is by using [our official Redux+TS template for Vite](https://github.com/reduxjs/redux-templates), or by creating a new Next.js project using [Next's `with-redux` template](https://github.com/vercel/next.js/tree/canary/examples/with-redux).
 
 Both of these already have Redux Toolkit and React-Redux configured appropriately for that build tool, and come with a small example app that demonstrates how to use several of Redux Toolkit's features.
 
+```bash
 # Vite with our Redux+TS template
 # (using the `degit` tool to clone and extract the template)
 npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
 
 # Next.js using the `with-redux` template
 npx create-next-app --example with-redux my-app
-An Existing React App
-React Redux 8.0 requires React 16.8.3 or later (or React Native 0.59 or later).
+```
+
+### An Existing React App
+
+React Redux 8.0 requires **React 16.8.3 or later** (or React Native 0.59 or later).
 
 To use React Redux with your React app, install it as a dependency:
 
+```bash
 # If you use npm:
 npm install react-redux
 
 # Or if you use Yarn:
 yarn add react-redux
-You'll also need to install Redux and set up a Redux store in your app.
+```
 
-This assumes that you’re using npm package manager with a module bundler like Webpack or Browserify to consume CommonJS modules.
+You'll also need to [install Redux](https://redux.js.org/introduction/installation) and [set up a Redux store](https://redux.js.org/recipes/configuring-your-store/) in your app.
 
-If you don’t yet use npm or a modern module bundler, and would rather prefer a single-file UMD build that makes ReactRedux available as a global object, you can grab a pre-built version from cdnjs. We don’t recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on npm.
+This assumes that you’re using [npm](http://npmjs.com/) package manager
+with a module bundler like [Webpack](https://webpack.js.org/) or
+[Browserify](http://browserify.org/) to consume [CommonJS
+modules](https://webpack.js.org/api/module-methods/#commonjs).
 
-Documentation
-The React Redux docs are published at https://react-redux.js.org .
+If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactRedux` available as a global object, you can grab a pre-built version from [cdnjs](https://cdnjs.com/libraries/react-redux). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on [npm](http://npmjs.com/).
 
-How Does It Work?
-The post The History and Implementation of React-Redux explains what it does, how it works, and how the API and implementation have evolved over time.
+## Documentation
 
-There's also a Deep Dive into React-Redux talk that covers some of the same material at a higher level.
+The React Redux docs are published at **https://react-redux.js.org** .
+
+## How Does It Work?
+
+The post [The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
+explains what it does, how it works, and how the API and implementation have evolved over time.
+
+There's also a [Deep Dive into React-Redux](https://blog.isquaredsoftware.com/2019/06/presentation-react-redux-deep-dive/) talk that covers some of the same material at a higher level.
+
+## License
+
+[MIT](LICENSE.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![riadAin](https://github.com/aryat10/React-Redux-/assets/107941072/2dd3d73d-b360-4467-b0cd-5c450600a3ff)
+
+
+
+
