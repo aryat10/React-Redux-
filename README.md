@@ -16,10 +16,47 @@ It implements many performance optimizations internally, which allows to compone
 
 
 Here in this repository I have created a simple Increement-Decrement counter which will give us the glimpse of how the Redux actually works in React !!! 
+
+
+
+
+
+
+
 Install Packages
+
+
+
+
+
+
+
+
 Create reducer and actions
+
+
+
+
+
+
+
 Create and initialize the store
+
+
+
+
+
+
 Provide the store to React application
+
+
+
+
+
+
+
+
+
 Dispatch actions from the react component
 
 
