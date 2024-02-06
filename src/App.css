@@ -1,0 +1,17 @@
+
+.App{
+  background-color: rgb(112, 20, 197);
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+h1{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+}
+button{
+  font-size: 26px;
+  cursor: grab;
+  text-decoration: none;
+}
